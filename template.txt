@@ -1,0 +1,4 @@
+x=requests.get('http://site/'+acc)
+if x.status_code == 200:
+print("\003[0;32:"+'[➤] site/'+acc)
+-- Template for other sites. 
